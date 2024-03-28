@@ -6,8 +6,9 @@ use Illuminate\Http\Request;
 
 class ContatoController extends Controller
 {
-    public function index() { 
-        $data['titulo'] = 'Minha página de contato dinamica.';
-        return view('contato',$data);
+    public function index() {
+        $data['title'] = 'Contato';
+        $data['cabecalho'] = 'Entre em contato';
+        return view('contato.contato',$data);
      }
 }

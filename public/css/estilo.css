@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: rgb(245, 245, 144);
+}
+
+a, a:link, a:visited {
+    color: rgb(105, 248, 105)
+}
+
+div#conteudo {
+    margin: 15px auto;
+    width: 90%;
+    display: flexbox;
+}
+
+div#rodape {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: flexbox;
+    text-align: center;
+    color:gray;
+}
+
+div#rodape hr {
+    border: 1px dashed gray;
+}
