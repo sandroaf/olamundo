@@ -5,7 +5,7 @@ use App\Http\Controllers\ContatoController;
 use PSpell\Config;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home', array("title"=>'Exemplo Laravel'));
 });
 
 Route::resource('/contato', ContatoController::class);

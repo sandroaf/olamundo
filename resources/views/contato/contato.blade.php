@@ -9,4 +9,6 @@
     ?>
     <hr>
     <p>Obrigado por visitar: <?php echo $title.' - '.$cabecalho ?></p>
+    <br>
+    <a href="/">Voltar a Home</a>
 @endsection
