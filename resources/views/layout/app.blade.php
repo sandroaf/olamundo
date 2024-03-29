@@ -8,12 +8,16 @@
     <title>@yield('title')</title>
 </head>
 <body>
-    <div id="conteudo">
+    <header>
+        <a href="/"><img id="logo" src="{{ asset('img/laravel-olamundo.png')}}"></a>
+    </header>
+    
+    <section id="conteudo">
         @yield('content')
-    </div>
-    <div id="rodape">
+    </section>
+    <footer>
         <hr>
         <address>Direitos reservados BSN - PW2 - 2024</address>
-    </div>
+    </footer>
 </body>
 </html>

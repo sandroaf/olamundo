@@ -4,16 +4,46 @@ body {
 }
 
 a, a:link, a:visited {
-    color: rgb(105, 248, 105)
+    color: rgb(105, 248, 105);
+    text-decoration: none;
+    display: block;
 }
 
-div#conteudo {
+li a:hover {
+    color: black;
+    background-color: rgb(105, 248, 105);
+}
+
+header {
     margin: 15px auto;
-    width: 90%;
+    background-color: lightgrey;
+    text-align: center;
     display: flexbox;
 }
 
-div#rodape {
+#logo {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+section#conteudo {
+    margin: 15px auto;
+    width: 70%;
+    display: flexbox;
+}
+
+section#conteudo ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+section#conteudo li {
+    list-style: none;
+    width: 60px;
+}
+
+footer {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -23,6 +53,6 @@ div#rodape {
     color:gray;
 }
 
-div#rodape hr {
+footer hr {
     border: 1px dashed gray;
 }
