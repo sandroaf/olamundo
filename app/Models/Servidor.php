@@ -17,7 +17,7 @@ class Servidor extends Model
 
     //Retorna data e hora de execução do script no servidor
     public function getData() {
-        date_default_timezone_set("America/New_York");
+        date_default_timezone_set("America/Sao_Paulo");
         return date("d/m/Y h:i:s a");
     }
 }
